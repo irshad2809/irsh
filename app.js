@@ -19,7 +19,11 @@
       scrollOverflow: true,
       onLeave: function(index, nextIndex, direction) {
         var leavingSection = $(this);
-
+        gtag('config', 'UA-111195684-3', {
+          'page_title': window.location.href.substr(35),
+          'page_path': window.location.href.substr(33),
+          'page_location': window.location.href
+        });
         callAnim();
 
         if ($(window).width() < "600") {
