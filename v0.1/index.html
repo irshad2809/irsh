@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#000" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#34b8a8">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111195684-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111195684-3');
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- <script src="js/typed.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+  <title>Portfolio</title>
+</head>
+
+<body data-spy="scroll">
+  <header>
+    <nav data-aos="fade-up" id="myScrollspy" class="navbar navbar-expand-sm navbar-dark justify-content-sm-around fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-sm-around" id="nav-content">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="about" data-aos="fade-down" class="intro">
+      <div class="type">
+        <div id="txt1"> Hello World....</div>
+        <div id="txt2" class="tealtxt">I'm Irshad</div>
+        <div id="txt3" class="about">Interactive front-end developer currently based in India. Focussed on creative Website designs.</div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section id="Projects" class="project-listing">
+
+      <div id="accordion">
+        <div>
+          <div class="Aproject jumbotron text-center " data-aos="fade-up-left" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            <h1>VEGROCE</h1>
+          </div>
+          <div id="collapse1" class="collapse text-center">
+            <h2>Online Grocery Store</h2>
+            <a href="http://vegroce.com/" target="_blank">
+              <img class="projectimage" src="img/vegroce.png" alt="vegroce">
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="Aproject jumbotron text-center " data-aos="fade-up-right" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            <h1>MULTYBIZ</h1>
+          </div>
+          <div id="collapse2" class="collapse text-center">
+            <h2>Online Industrial Directory</h2>
+            <a href="https://multybiz.com/" target="_blank">
+              <img class="projectimage" src="img/multybiz.png" alt="multybiz">
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="Aproject jumbotron text-center " data-aos="fade-up-left" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            <h1>GLOBALTECH</h1>
+          </div>
+          <div id="collapse3" class="collapse text-center ">
+            <h2>Design And Engineering Services</h2>
+            <a href="http://globaltechind.com" target="_blank">
+              <img class="projectimage" src="img/globaltech.png" alt="globaltechind">
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="Aproject jumbotron text-center " data-aos="fade-up-right" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+            <h1>WRITE4INDIA</h1>
+          </div>
+          <div id="collapse4" class="collapse text-center">
+            <h2> Internet Media Organization</h2>
+            <a href="http://write4india.com/" target="_blank">
+              <img class="projectimage" src="img/write4.png" alt="write4india">
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="Aproject jumbotron text-center " data-aos="fade-up-left" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+            <h1>BHAGWATI FOOTWEAR</h1>
+          </div>
+          <div id="collapse5" class="collapse text-center">
+            <h2> Footwear Shop</h2>
+            <a href="http://bhagwatifootwear.com/" target="_blank">
+              <img class="projectimage" src="img/bhagwati.png" alt="bhagwatifootwear">
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="Aproject jumbotron text-center " data-aos="fade-up-right" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+            <h1>OTHERS</h1>
+          </div>
+          <div id="collapse6" class="collapse text-center">
+
+            <ul class="list-group">
+              <li class="list-group-item disabled">Khedmart.com</li>
+              <li class="list-group-item disabled">chakanmart.com</li>
+              <li class="list-group-item disabled">softsanskar.com</li>
+              <li class="list-group-item disabled">zpschoolsatarkavasti.org</li>
+            </ul>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer data-aos="fade-down">
+    <span id="contact" class="">If you’d like to get in touch --</span>
+    <a href="mailto:s.irshad179@gmail.com">email me</a></span>
+    <div class="social-links text-center">
+      <a class="btn btn-lg" href="https://www.linkedin.com/in/irshad-shaikh-7aa8476a/" target="_blank">
+        <i class="fab fa-lg fa-linkedin-in"></i>
+      </a>
+      <a class="btn btn-lg" href="https://codepen.io/irsh/" target="_blank">
+        <i class="fab fa-lg fa-codepen"></i>
+      </a>
+      <a class="btn btn-lg" href="https://github.com/irshad2809" target="_blank">
+        <i class="fab fa-lg fa-github"></i>
+      </a>
+      <a class="btn btn-lg" href="https://www.facebook.com/sharukshaikh179" target="_blank">
+        <i class="fab fa-lg fa-facebook"></i>
+      </a>
+      <a class="btn btn-lg" href="https://twitter.com/sirshad179" target="_blank">
+        <i class="fab fa-lg fa-twitter"></i>
+      </a>
+      <a class="btn btn-lg" href="docs/updated142k18.pdf" target="_blank" data-toggle="tooltip" title="Resume">
+          <i class="fas fa-lg fa-file-alt"></i>
+      </a>
+    </div>
+    <div class="final-words text-center">
+      <p><a class="btn" href="../v0.1/index.html">V 0.1</a>
+        <a class="btn" href="../0.2/index.html">V 0.2</a>
+        <a class="btn" href="../index.html">V 0.3</a>
+      </p>
+      <p> Made with
+        <span id="madeWith">☕</span>
+      </p>
+      <p>Something something copyright.</p>
+    </div>
+
+  </footer>
+  <!-- particles.js -->
+  <div id="particles-js"></div>
+  <script type="text/javascript">
+    particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+</body>
+
+</html>

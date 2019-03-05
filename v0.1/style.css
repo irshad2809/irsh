@@ -1,0 +1,187 @@
+body, html {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  color: white;
+}
+
+body.modal-open {
+  overflow: visible;
+}
+
+body .modal {}
+
+html {
+  overflow-x: hidden;
+}
+
+header {
+  color: white;
+  height: 100vh;
+}
+
+header nav.navbar {
+
+  color: #fff;
+  background-color: #000;
+}
+
+header div ul.navbar-nav li a {
+  font-size: 1.2em;
+  color: white !important;
+}
+
+header .active {
+  background: #00968836;
+  text-align: center;
+  border-bottom: 3px solid #009688;
+}
+
+
+header .intro {
+  color: #009688;
+  height: 80%;
+  width: 100%;
+  padding: 0 4%;
+}
+
+header .intro .type {
+  position: relative;
+  top: 38%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+header .intro .type #txt1 {
+  flex: 1 1 100%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 3em;
+}
+
+header .intro .type #txt2 {
+  align-self: center;
+  text-align: center;
+  color: #009688;
+  font-size: 2em;
+}
+
+header .intro .type #txt3 {
+  align-self: center;
+  text-align: center;
+  font-size: 2em;
+  color: aliceblue;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  padding: 50px 4% 20px 4%;
+}
+
+.tealBg {
+  color: #fff !important;
+  background-color: #009688 !important;
+}
+
+.tealtxt {
+  color: #009688 !important;
+}
+
+.typed-cursor {
+  font-size: 25px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+body h1 {
+  font-size: 4em;
+}
+
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+body main {
+  margin: 5% 0;
+}
+
+.project-listing {
+  border-top: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.Aproject {
+  background-color: #00000000;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+  text-stroke: 2px #fff;
+  cursor: pointer;
+}
+
+.Aproject:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.collapse {
+  border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+  padding-bottom: 1%;
+}
+
+#collapse1 a:hover {
+  color: #28a745;
+}
+
+#collapse2 a:hover {
+  color: #007bff;
+}
+
+#collapse3 a:hover {
+  color: #ff5722;
+}
+
+#collapse4 a:hover {
+  color: #386fa7;
+}
+
+#collapse5 a:hover {
+  color: #fff;
+}
+
+.projectimage {
+  width: 150px;
+}
+
+.list-group-item.disabled {
+  background-color: transparent !important;
+}
+
+[aria-expanded="true"] {
+  border-bottom: 0;
+  color: #fff;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  background-color: #000;
+}
