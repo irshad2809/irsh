@@ -1,3 +1,7 @@
+h5 a.btn {
+  margin: 1rem;
+}
+
 .menu-btn {
   position: fixed;
   z-index: 3;
